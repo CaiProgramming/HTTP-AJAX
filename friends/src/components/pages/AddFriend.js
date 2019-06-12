@@ -1,12 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-import MakeFriends from "../friends/MakeFriends";
+import AddForm from "../friends/FriendForm";
 
-export default class Home extends React.Component {
+export default class AddFriend extends React.Component {
   render() {
     return (
       <>
-        <MakeFriends />
+        <AddForm />
       </>
     );
   }
